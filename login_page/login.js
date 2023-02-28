@@ -41,7 +41,7 @@ function authenticate(){
 function check(result){
   result=true;
   if(result==true && authenticate()==true){
-    window.location="www.youtube.com"
+    window.location="first_page.html"
   }else{
     alert("Sorry, password is incorrect.");
   }
